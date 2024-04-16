@@ -1,0 +1,135 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  padding-bottom: 50px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header .title {
+  margin-left: 20px;
+  font-size: 1.5em;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin-right: 20px;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #ddd;
+}
+
+.tweet {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.author {
+  font-size: 0.8em;
+  color: #888;
+}
+
+.like-count {
+  font-size: 0.8em;
+  color: #888;
+}
+
+h2 {
+  color: #333;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: 20%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.error {
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+.profile-info {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info p {
+  margin: 0 0 10px;
+}
+
+.profile-info strong {
+  font-weight: bold;
+}
+
+.tweets-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tweets-list li {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  height: 50px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
